@@ -81,7 +81,7 @@ class ContactPage:
         save_button.grid(row=5, column=0, columnspan=2, pady=10)
 
         # Back button to go back to main page
-        back_button = tk.Button(self.contact_window, text="Back to Main Page", command=self.back_to_main, width=20, height=2, bg="#2196F3", fg="white",activebackground='#1c7dc9',activeforeground='white', font=("Arial", 12, "bold"))
+        back_button = tk.Button(self.contact_window, text="<<< Back", command=self.back_to_main, width=20, height=2, bg="#2196F3", fg="white",activebackground='#1c7dc9',activeforeground='white', font=("Arial", 12, "bold"))
         back_button.grid(row=6, column=0, columnspan=2, pady=10)
 
         # QR code image display
