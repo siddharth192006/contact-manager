@@ -59,19 +59,19 @@ ContactManager/
 ├── User Information/    # Directory for saved client data
 ├── payment_qr.png       # Temporary generated QR code
 ```
-# Customization
+## Customization
 
 - **Logo**: Replace `logo.png` with your own logo image.
 - **Payment UPI**: Update the UPI ID in the `save_user_data` method to your own.
 - **Theme**: Adjust background colors, button styles, and font styles in the application's UI design.
 
-# Future Enhancements
+## Future Enhancements
 
 - Add database integration for better data management.
 - Implement advanced price calculations, including discounts and taxes.
 - Add user authentication for secure access to the application.
 - Provide export options for saved data (e.g., CSV or PDF files).
 
-# License
+## License
 
 This project is licensed under the MIT License. Feel free to modify and distribute it according to your requirements.
